@@ -1,20 +1,110 @@
-# Digivas
-Digivas is a digital drawing board application designed by Adib Bin Iqbal for CSE 102 course at BUET CSE Department. It provides a user-friendly platform for aspiring artists and designers to unleash their creativity on a digital canvas.
+# 🎨 Digivas – iGraphics Digital Drawing Board
 
-Features:
-Pen tool: The pen tool allows users to write or draw something freely anywhere on the board as per user’s choice. User can select the pen tool and right click on mouse to draw on the board.
-Geometric Shapes: There is a function to add geometric shapes such as circle, straight line, ellipse, rectangle, etc. to the drawing board. There are several buttons representing it’s own geometric shape. Users can select a geometric shape and click anywhere on the screen in order to add the geometric shape to the specific part of the board.
-Colors: This function allows users to change the color of the current drawing tool. There are several vibrant buttons representing the color of the pen. Users can click on a specific button to change the color of the pen to that specific color.
-Size: To increase the size of the brush, radius of circle, major and minor axis of ellipse, height and base of rectangle, click on the + sign when respective tools are selected.To decrease the size of the brush, radius of circle, major and minor axis of ellipse, height and base of rectangle, click on the - sign when respective tools are selected.
-Eraser: Users are introduced with eraser tool to erase something drawn on the board. When an user has selected the eraser tool user can right click and drag the mouse over the board to erase something underneath the area where the mouse has been hovered.
-Text Tool: There is a tool to write something as text format on the board. Users can select the text tool and click anywhere on the board to add a text to that specific region of the canvas.
+**Digivas** is a digital drawing board application developed by **Adib Bin Iqbal** for the **CSE 102 course** at the **BUET CSE Department**. It provides a user-friendly platform for aspiring artists, students, and designers to unleash their creativity on a digital canvas using simple interactive tools.
 
-Target Audience:
-Digivas caters to a broad audience, including:
-Art Enthusiasts: Beginners and experienced artists alike can hone their skills and explore their creative potential.
-Designers: Create digital mockups, illustrations, and graphic design elements with ease.
-Students: Utilize Digivas for creative projects or visual note-taking.
+GitHub Repo: [https://github.com/adibbiniqbal/iGraphics-Digital_Drawing_Board-Digivas](https://github.com/adibbiniqbal/iGraphics-Digital_Drawing_Board-Digivas)
 
-Digivas is a promising digital drawing board application with the potential to empower artists and designers of all levels. By leveraging its user-friendly interface and versatile features, Digivas can become a valuable tool for artistic expression and digital creation.
+---
 
-To use digivas download all the files and put them in one folder, inside that folder make a folder names ".vscode" and put tasks.json inside that folder.
+## 📽️ Demo
+
+Watch the live demonstration:  
+[![Digivas Demo](https://img.youtube.com/vi/llOTXxRDdfM/0.jpg)](https://youtu.be/llOTXxRDdfM)
+
+---
+
+## 🖌️ Features
+
+- **🖊️ Pen Tool**: Draw or write freely anywhere on the board using the right mouse button after selecting the pen tool.
+- **📐 Geometric Shapes**: Easily add shapes like circles, straight lines, ellipses, and rectangles by clicking the respective shape button and then clicking on the canvas.
+- **🎨 Color Picker**: Choose vibrant colors for your pen or shape using intuitive color buttons.
+- **🔍 Size Adjustment**: Increase or decrease the brush size, circle radius, ellipse axes, or rectangle dimensions using the `+` and `-` buttons.
+- **🧽 Eraser Tool**: Erase drawn content by selecting the eraser and right-click-dragging over the area to be erased.
+- **🔤 Text Tool**: Add custom text anywhere on the board by selecting the text tool and clicking your desired location.
+
+---
+
+## 🎯 Target Audience
+
+Digivas is ideal for:
+
+- **🎨 Art Enthusiasts** – Practice freehand sketching and digital painting.
+- **🧑‍🎓 Students** – Use it for visual note-taking or educational projects.
+- **🧑‍💻 Designers** – Create digital mockups and simple illustrations with ease.
+
+---
+
+## 🔧 Requirements
+
+- C++ Compiler
+- OpenGL and GLUT
+- iGraphics Library:  
+  Get it from [Drive](https://drive.google.com/drive/folders/1CD23-FPh9YcDVsRckE0WqfKOVra-3guj)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/adibbiniqbal/iGraphics-Digital_Drawing_Board-Digivas
+   cd iGraphics-Digital_Drawing_Board-Digivas
+   ```
+
+2. **(Recommended)** Create the `.vscode` folder and place `tasks.json` inside:
+   ```
+   mkdir .vscode
+   ```
+
+3. Example `tasks.json` to compile and run:
+   ```json
+   {
+     "version": "2.0.0",
+     "tasks": [
+       {
+         "label": "Build and Run Digivas",
+         "type": "shell",
+         "command": "g++ main.cpp -lglut -lGL -lGLU -o Digivas && ./Digivas",
+         "group": {
+           "kind": "build",
+           "isDefault": true
+         },
+         "problemMatcher": []
+       }
+     ]
+   }
+   ```
+
+4. Run the app using your terminal or the VS Code build task.
+
+---
+
+## 📁 File Structure
+
+```
+📁 iGraphics-Digital_Drawing_Board-Digivas
+├── main.cpp              # Core implementation
+├── README.md             # Project overview
+└── .vscode/
+    └── tasks.json        # VS Code build config
+```
+
+---
+
+## 🙌 Acknowledgements
+
+- Developed using [iGraphics](https://drive.google.com/drive/folders/1CD23-FPh9YcDVsRckE0WqfKOVra-3guj) by BUET.
+- Special thanks to the BUET CSE 102 teaching staff and community.
+
+---
+
+## 📜 License
+
+This project is released under the MIT License.
+
+---
+
+> Created with ❤️ by Adib Bin Iqbal
+
+
+
