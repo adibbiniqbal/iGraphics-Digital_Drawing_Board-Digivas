@@ -51,31 +51,7 @@ Digivas is ideal for:
    cd iGraphics-Digital_Drawing_Board-Digivas
    ```
 
-2. **(Recommended)** Create the `.vscode` folder and place `tasks.json` inside:
-   ```
-   mkdir .vscode
-   ```
-
-3. Example `tasks.json` to compile and run:
-   ```json
-   {
-     "version": "2.0.0",
-     "tasks": [
-       {
-         "label": "Build and Run Digivas",
-         "type": "shell",
-         "command": "g++ main.cpp -lglut -lGL -lGLU -o Digivas && ./Digivas",
-         "group": {
-           "kind": "build",
-           "isDefault": true
-         },
-         "problemMatcher": []
-       }
-     ]
-   }
-   ```
-
-4. Run the app using your terminal or the VS Code build task.
+2. Run the app using your terminal or the VS Code build task.
 
 ---
 
